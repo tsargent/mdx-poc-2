@@ -11,9 +11,6 @@ module.exports = {
   },
 
   // Ignore specific modules in node_modules from Babel transformations
-  transformIgnorePatterns: [
-    "/node_modules/(?!(@mdx-js/mdx|vfile|vfile-message|unist-util-stringify-position|markdown-extensions|devlop|remark-mdx|mdast-util-mdx|mdast-util-mdx-expression|mdast-util-mdx-jsx)/)",
-  ],
 
   // Enable ES6 modules support
   testEnvironment: "node",
