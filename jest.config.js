@@ -11,6 +11,7 @@ module.exports = {
   },
 
   // Ignore specific modules in node_modules from Babel transformations
+  transformIgnorePatterns: ["/node_modules/(?!(my-es6-module)/)"],
 
   // Enable ES6 modules support
   testEnvironment: "node",
